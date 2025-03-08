@@ -1,0 +1,49 @@
+*{
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: rgb(104, 9, 104);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: rgb(66, 3, 66);
+    border-radius: 10px;
+}
+
+ .pic{
+   width: 140px;
+   height: 140px;
+   border-width: 2px;
+   border-style: solid;
+   border-color: rgb(39, 107, 153);
+   display: flex;
+   justify-content:center;
+   align-items:normal;
+   border-radius: 50%;
+   margin: 2px 50px 250px 120px;
+   background-image: url"https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flower_jtca001.jpg/1280px-Flower_jtca001.jpg";
+   border-image-outset: 50%;
+   
+} 
+img{
+    width: 130px;
+    height:130px;
+    border: 2px;
+    background-color: rgb(9, 117, 117);
+    border-radius: 50%;
+     object-fit:cover; 
+    margin: 3px 100px 150px 100px;
+    
+}

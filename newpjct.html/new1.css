@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(161, 170, 32);
+}
+.boxes{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 0px 0px 0px 300px;
+    
+}
+.box1{
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    box-shadow:inset;
+}
+
+.box2{
+    width: 300px;
+    height: 500px;
+    background-color: white;
+}
+.bx1{
+    width: 300px;
+    height:250px ;
+    position: relative;
+}
+.cx1{
+    width: 300px;
+    height:250px ;
+    position: relative;
+}
+img{
+    width: 300px;
+    height:250px ;
+    
+}
+p{
+    text-align: center;
+}
+.pa{
+    font-size: larger;
+}
+
+.bx2{
+    width: 300px;
+    height:250px ;
+    
+}
+ 
+.boxa{
+    width: 20px;
+    height: 20px;
+    background-color: brown;
+    border-radius: 50%;
+}
+.boxb{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(50, 202, 207);
+    border-radius: 50%;
+}
+.boxc{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(201, 204, 20);
+    border-radius: 50%;
+}
+.abc{
+    width: 100px;
+    height: 20px;
+    margin: 0px 0px 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+button{
+    padding: 12px;
+}
+.finish{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 0px 0px 0px 50px;
+}
+
+.txt {
+    position: absolute;
+    top: 10px;
+    right: 16px;
+  }
+.txt1{
+    position: absolute;
+    top: 10px;
+    right: 16px;
+  }

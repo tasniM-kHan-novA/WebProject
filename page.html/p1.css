@@ -1,0 +1,380 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(182, 179, 10);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:small;
+    
+}
+.container{
+    width: 80%;
+    height: 570px;
+    background-color: rgb(67, 28, 175);
+    color: white;
+    flex-direction:row;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.container:hover{
+    background-color: rgb(53, 43, 197);
+}
+.col{
+    width:160px;
+    height:470px ;
+    margin:40px 0px 40px 40px;
+}
+.title {
+    
+    width: 150px;
+    height: 350px;
+    color:white;
+    margin: 20px 0px 0px 40px;
+}
+.button{
+    width: 150px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    margin:0px 0px 30px 20px;
+}
+.button a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border:1px solid white;
+    border-radius: 15px;
+    transition: 1s;
+    overflow: hidden;
+}
+.button a:hover{
+    background-color: rgb(209, 201, 218);
+    color: rgb(61, 60, 60);
+}
+.text{
+    width:150px;
+    height:20px;
+    display: flex;
+    justify-content:space-evenly;
+    font-weight:lighter;
+    margin: 10px 0px 0px 0px;
+}
+.container.text{
+   
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column-reverse;
+    position: relative;
+    
+}
+select{
+    background-color: rgb(67, 28, 175);
+    color: white;
+    overflow: hidden;
+}
+.row{
+    
+    width: 750px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 10px 10px 0px 0px;
+}
+a{
+    color: antiquewhite;
+}
+.first{
+    
+    width:700px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.box1{
+    background-color: white;
+    color: black;
+    width:210px;
+    height: 210px;
+    border-radius: 5%;
+   
+}
+.box1:hover{
+    background-color: rgb(117, 238, 86);
+}
+.box2{
+    background-color: white;
+    color: black;
+    width:210px;
+    height: 210px;
+    border-radius: 5%;
+    
+}
+.box2:hover{
+    background-color: rgb(228, 212, 75);
+}
+.box3{
+    background-color: white;
+    color: black;
+    width:210px;
+    height: 210px;
+    border-radius: 5%;
+    
+}
+.box3:hover{
+    background-color: rgb(182, 250, 227);
+}
+.check{
+    width:850px;
+    height: 800px;
+    flex-direction: column;
+    
+}
+.box4{
+    background-color: white;
+    color: black;
+    width:210px;
+    height: 210px;
+    border-radius: 5%;
+    
+}
+.box4:hover{
+    background-color:rgb(172, 155, 231);
+}
+.box5{
+    background-color: white;
+    color: black;
+    width:210px;
+    height: 210px;
+    border-radius: 5%;
+    
+}
+.box5:hover{
+    background-color:rgb(240, 149, 97);
+}
+.box6{
+    background-color: white;
+    color: black;
+    width:210px;
+    height: 210px;
+    border-radius: 5%;
+    
+}
+.box6:hover{
+    background-color: rgb(224, 144, 188);
+}
+.second{
+    
+    width:700px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.sixbox{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: column;
+    width: 800px;
+    height: 450px;
+    margin: 0px 0px 0px 40px;
+}
+img{
+    width: 100%;
+    height: 50%;
+    border-radius: 5% 5% 5% 5%;
+}
+
+.i{
+    margin: 5px 0px 0px 5px ;
+    width: 200px;
+    height:70px ;
+
+}
+.j{
+    margin: 5px 0px 0px 5px ;
+    width: 200px;
+    height:70px ;
+}
+.k{
+    margin: 5px 0px 0px 5px ;
+    width: 200px;
+    height:70px ;
+}
+.l{
+    margin: 5px 0px 0px 5px ;
+    width: 200px;
+    height:70px ;
+}
+.m{
+    margin: 5px 0px 0px 5px ;
+    width: 200px;
+    height:70px ;
+}
+.n{
+    margin: 5px 0px 0px 5px ;
+    width: 200px;
+    height:70px ;
+}
+.btn1{
+    width: 140px;
+    height: 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items:last baseline;
+    overflow: hidden;
+    margin:0px 0px 0px 115px;
+}
+.btn1 a{
+    padding: 1px;
+    text-decoration: none;
+    color: rgb(77, 74, 74);
+    border:1px solid rgb(77, 74, 74);
+    border-radius: 5px;
+    transition: 1s;
+    overflow: hidden;
+   
+}
+.btn1 a:hover{
+    size: 10px;
+    background-color: rgb(17, 17, 17);
+    color: rgb(211, 202, 202);
+}
+ 
+.btn2{
+    width: 100px;
+    height: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    margin:0px 0px 0px 130px;
+}
+.btn2 a{
+    padding: 1px;
+    text-decoration: none;
+    color: rgb(77, 74, 74);
+    border:1px solid rgb(77, 74, 74);
+    border-radius: 5px;
+    transition: 1s;
+    overflow: hidden;
+   
+}
+.btn2 a:hover{
+    size: 10px;
+    background-color: rgb(17, 17, 17);
+    color: rgb(211, 202, 202);
+}
+.btn3{
+    width: 100px;
+    height: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    margin:0px 0px 0px 130px;
+}
+.btn3 a{
+    padding: 1px;
+    text-decoration: none;
+    color: rgb(77, 74, 74);
+    border:1px solid rgb(77, 74, 74);
+    border-radius: 5px;
+    transition: 1s;
+    overflow: hidden;
+   
+}
+.btn3 a:hover{
+    size: 10px;
+    background-color: rgb(17, 17, 17);
+    color: rgb(211, 202, 202);
+}
+.btn4{
+    width: 100px;
+    height: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    overflow: hidden;
+    margin:0px 0px 0px 130px;
+}
+.btn4 a{
+    padding: 1px;
+    text-decoration: none;
+    color: rgb(77, 74, 74);
+    border:1px solid rgb(77, 74, 74);
+    border-radius: 5px;
+    transition: 1s;
+    overflow: hidden;
+   
+}
+.btn4 a:hover{
+    size: 10px;
+    background-color: rgb(17, 17, 17);
+    color: rgb(211, 202, 202);
+}
+.btn5{
+    width: 70px;
+    height: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    margin:0px 0px 0px 145px;
+}
+.btn5 a{
+    padding: 1px;
+    text-decoration: none;
+    color: rgb(77, 74, 74);
+    border:1px solid rgb(77, 74, 74);
+    border-radius: 5px;
+    transition: 1s;
+    overflow: hidden;
+   
+}
+.btn5 a:hover{
+    size: 10px;
+    background-color: rgb(17, 17, 17);
+    color: rgb(211, 202, 202);
+}
+.btn6{
+    width: 150px;
+    height: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    margin:0px 0px 0px 105px;
+}
+.btn6 a{
+    padding: 1px;
+    text-decoration: none;
+    color: rgb(77, 74, 74);
+    border:1px solid rgb(77, 74, 74);
+    border-radius: 5px;
+    transition: 1s;
+    overflow: hidden;
+   
+} 
+.btn6 a:hover{
+    size: 10px;
+    background-color: rgb(17, 17, 17);
+    color: rgb(211, 202, 202);
+}

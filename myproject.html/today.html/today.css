@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:black;
+}
+.n1{
+    height:300px;
+    width:300px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    margin: 200px 200px 0px 550px;
+
+}
+
+
+
+.box2{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin:0px 0px 0px 410px;
+
+}
+button{
+    padding:5px;
+    border-radius: 5%;
+}
+
+img{
+    border:2px solid #fff;
+    border-radius: 3%;
+}

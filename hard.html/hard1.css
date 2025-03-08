@@ -1,0 +1,635 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: aqua;
+}
+.container{
+    height: 100%;
+    width:100%;
+    align-items: center;
+    justify-content: space-around;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.num1{
+    width: 100%;
+    height:80px;
+    background-color: white;
+}
+.num2{
+    width:100%;
+    height: 450px;
+    background-color: rgb(32, 30, 30);
+    background-image: url("https://i.pinimg.com/736x/de/19/19/de1919c75940fd5bf1dba67ec1077c5e.jpg");
+    color: white;
+    backface-visibility: inherit;
+
+
+}
+.good{
+    width: 750px;
+    height: 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 0px 0px 150px;
+    text-align: center;
+}
+#nova{
+    margin: 100px 0px 0px 0px;
+}
+.button{
+    width:250;
+    height: 45px;
+    margin: 50px 0px 0px 100px;
+
+}
+.button button{
+    background-color: rgb(153, 35, 35);
+    color: white;
+    padding: 5px;
+    border-radius: 9%;
+    width:250px ;
+    height: 45px;
+}
+.gdbtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.r{
+    width: 450px;
+    height:45px ;
+    border-radius: 5%;
+    margin: 105px 0px 0px 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+}
+.r button{
+    width:150;
+    height: 35px;
+    background-color: rgb(16, 114, 114);
+    color: white;
+    padding: 2px;
+    border-radius: 5%;
+
+}
+.num3{
+    width: 100%;
+    height: 250px;
+    background-color: white;
+}
+.num4{
+    width: 100%;
+    height: 350px;
+    background-color:rgb(32, 30, 30);
+}
+.num5{
+    width:100%;
+    height: 650px;
+    background-color: white;
+
+}
+.num6{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(32, 30, 30);
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: brown;
+}
+.box{
+    width: 18px;
+    height: 18px;
+    background-color: rgb(61, 136, 248);
+}
+.first{
+    width: 130px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction:row;
+    margin:0px 0px 0px 150px;
+}
+.home{
+    width: 70px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home:hover{
+    background-color: aqua;
+}
+.portfolio{
+    width: 70px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio:hover{
+    background-color: aqua;
+
+}
+.about{
+    width: 70px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about:hover{
+    background-color: aqua;
+}
+.contact{
+    width: 70px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact:hover{
+    background-color: aqua;
+}
+.blog{
+    width: 70px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    background-color: rgb(179, 86, 86);
+    border-radius: 25%;
+    padding: 2px;
+}
+.search{
+    width: 70px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search:hover{
+    background-color: aqua;
+}
+.second{
+    width: 620px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction:row;
+    margin: 0px 100px 0px 0px;
+}
+.num1{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction:row;
+
+}
+.aa{
+    width: 18px;
+    height: 18px;
+    background-color: rgb(233, 233, 235);
+    border-radius: 50%;
+
+}
+.bb{
+    width: 18px;
+    height: 18px;
+    background-color: rgb(218, 222, 228);
+    border-radius: 50%;
+
+}
+.cc{
+    width: 18px;
+    height: 18px;
+    background-color: rgb(244, 248, 253);
+    border-radius: 50%;
+
+}
+.dd{
+    width: 18px;
+    height: 18px;
+    background-color: rgb(221, 223, 228);
+    border-radius: 50%;
+
+}
+.ee{
+    width: 18px;
+    height: 18px;
+    background-color: rgb(207, 211, 218);
+    border-radius: 50%;
+
+}
+.abcde{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 50%;
+    width: 130px;
+    height: 50px;
+    margin: 0px 0px 100px 0px;
+
+}
+.one{
+    width:215px;
+    height:215px;
+    
+}
+.two{
+    width:215px;
+    height:215px;
+    
+}
+.three{
+    width:215px;
+    height:215px;
+    
+}
+.four{
+    width:215px;
+    height:215px;
+    
+}
+.fr{
+    width:80%;
+    height:250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction:row;
+    margin: 0px 0px 0px 150px;
+
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.n1{
+    width:100px;
+    height:110px;
+    border-radius: 50%;
+    margin: 0px 0px 0px 50px;
+}
+#n101{
+    color: rgb(7, 6, 68);
+
+}
+.web{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.n2{
+    width:100px;
+    height:110px;
+    border-radius: 50%;
+    margin: 0px 0px 0px 50px;
+}
+.src{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.online{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.social{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.n3{
+    width:100px;
+    height:110px;
+    border-radius: 50%;
+    margin: 0px 0px 0px 50px;
+}
+.n4{
+    width:100px;
+    height:110px;
+    border-radius: 50%;
+    margin:0px 0px 0px 50px;
+}
+.we{
+    color: rgb(32, 30, 30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin:0px 0px 0px 0px;
+}
+.what{
+    color: rgb(47, 47, 189);
+    margin: 50px 0px 0px 0px;
+}
+.div1{
+    width: 240px;
+    height: 150px;
+    
+    color: rgb(32, 30, 30);
+}
+.div2{
+    width: 240px;
+    height:150px;
+    color: rgb(32, 30, 30);
+}
+.div3{
+    width:240px;
+    height:150px;
+    
+    color: rgb(32, 30, 30);
+}
+.div4{
+    width: 240px;
+    height:150px;
+    
+    color: rgb(32, 30, 30);
+}
+.f2{
+    width: 1000px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 30px 0px 0px 150px;
+}
+.blue{
+    color:rgb(47, 47, 189) ;
+}
+.bu{
+    width:50px;
+    height: 50px;
+    margin: 20px 0px 0px 120px;
+}
+.bu button{
+    background-color: rgb(47, 47, 189);
+    padding: 5px;
+    border-radius: 20%;
+}
+.test{
+    color: rgb(47, 47, 189);
+}
+.jon{
+    color: brown;
+}
+.me{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 25px 0px 0px 0px;
+}
+.man1{
+    width: 100px;
+    height: 130px;
+    
+}
+.man2{
+    width: 100px;
+    height: 130px;
+    
+}
+.man3{
+    width: 100px;
+    height: 130px;
+    
+}
+.men{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 12px 0px 0px 500px;
+}
+.space1{
+    width: 100px;
+    height: 10px;
+    background-color: rgb(141, 133, 133);
+    margin: 15px 0px 0px 0px;
+}
+.space2{
+    width: 100px;
+    height: 10px;
+    background-color: rgb(209, 92, 92);
+    margin: 15px 0px 0px 0px;
+
+}
+.space2 img{
+    background-color:rgb(209, 92, 92) ;
+}
+.space3{
+    width: 100px;
+    height: 10px;
+    background-color: rgb(141, 133, 133);
+    margin: 15px 0px 0px 0px;
+    
+}
+.s1{
+    width: 180px;
+    height: 280px;
+    color: white;
+}
+.s3{
+    width: 180px;
+    height: 280px;
+    color: white;
+}
+
+.ss1{
+    color:rgb(209, 92, 92);
+}
+.news{
+    color:rgb(209, 92, 92);
+
+}
+hr{
+    color: white;
+}
+.s2{
+    width: 180px;
+    height: 280px;
+    color: white;
+}
+.finish{
+    width: 800px;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 0px 0px 0px 300px;
+    
+}
+.v button{
+    padding: 2px;
+    background-color: rgb(9, 161, 161);
+    color: white;
+    border-radius: 3%;
+}
+.di1{
+    width: 50px;
+    height: 50px;
+    color: white;
+    background-color: white;
+}
+.di2{
+    color: white;
+}
+.sk1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.recent{
+    color:rgb(209, 92, 92);
+}
+.s4{
+    width: 180px;
+    height: 280px;
+    color: white;
+}
+.ic1{
+    width: 50px;
+    height: 50px;
+   
+}
+.con{
+    color: rgb(209, 92, 92);
+}
+.tel{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    flex-direction: row;
+}
+.ic1 img{
+    width: 50px;
+    height: 50px;
+}
+.our1{
+    color:rgb(209, 92, 92);
+    margin: 50px 0px 0px 0px;
+}
+.our2{
+    margin: 50px 0px 0px 0px;
+}
+.our2 button{
+    background-color:rgb(47, 47, 189) ;
+    color: white;
+    padding: 5px;
+    border-radius: 10%;
+    margin: 0px 0px 0px 0px;
+}
+.our{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 0px 0px 0px 150px;
+}
+.lo1{
+    width: 300px;
+    height: 240px;
+    
+}
+.lo2{
+    width: 300px;
+    height: 240px;
+    
+}
+.lo3{
+    width: 300px;
+    height: 240px;
+    
+}
+.lo{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 20px 0px 0px 150px;
+
+}
+.vdo1 iframe{
+    width:300px;
+    height: 140px;
+    
+    
+}
+.ip1{
+    color:rgb(209, 92, 92) ;
+}
+.ip2{
+    color:white;
+}
+.blog button:hover{
+    background-color: rgb(21, 116, 116);
+    color: white;
+
+}
+.button button:hover{
+    background-color:rgb(21, 116, 116) ;
+}
+.r button:hover{
+    background-color:rgb(209, 92, 92) ;
+}
+.num2:hover{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRan7Qy0nzH66bGc1XhmkgI4k1BoBPsbH2hOA&s");
+}
+a{
+    color: rgb(57, 57, 216);
+}
+.aa:hover{
+    background-color: rgb(209, 92, 92);
+}
+.bb:hover{
+    background-color: rgb(209, 92, 92);
+}
+.cc:hover{
+    background-color: rgb(209, 92, 92);
+}
+.dd:hover{
+    background-color: rgb(209, 92, 92);
+}
+.ee:hover{
+    background-color: rgb(209, 92, 92);
+}
